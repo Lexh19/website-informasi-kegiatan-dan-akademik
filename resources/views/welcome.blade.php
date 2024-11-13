@@ -39,8 +39,8 @@
         <a href="index.html" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Selecao</h1>
-      </a>
+            <h1 class="sitename">Selecao</h1>
+        </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -1039,7 +1039,7 @@
                 <h3>Address</h3>
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
-            </div><!-- End Info Item -->
+            </div>
 
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone flex-shrink-0"></i>
