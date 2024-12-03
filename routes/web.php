@@ -1,7 +1,15 @@
 <?php
 
+use App\Models\Hero;
 use Illuminate\Support\Facades\Route;
 
+
 Route::get('/', function () {
-    return view('welcome');
+    $heros = Hero::all();
+
+
+
+    return view('welcome', [
+        'heros' => $heros
+    ]);
 });
