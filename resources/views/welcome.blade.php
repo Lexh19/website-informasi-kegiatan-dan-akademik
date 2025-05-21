@@ -45,7 +45,7 @@
             <li><a href="#hero" class="active">Beranda</a></li>
             <li><a href="#about">Tentang</a></li>
             <li><a href="#services">Visi Misi</a></li>
-            <li><a href="#portfolio">Galery</a></li>
+            <li><a href="#portfolio">Galeri</a></li>
             <li><a href="#team">Guru</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -124,7 +124,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <h2>Beranda</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -140,7 +140,7 @@
                 <p>
                     {{ $about->subtitle }}
                 </p>
-                <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                <a href="#" class="read-more"><span>Lihat Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
 
             </div>
 
@@ -322,8 +322,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>What we do offer</p>
+        <h2>Visi Misi</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -413,9 +412,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>What we've done</p>
-      </div><!-- End Section Title -->
+        <h2>Galeri</h2>
+      </div>
 
       <div class="container">
 
@@ -819,8 +817,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>Our Hardworking Team</p>
+        <h2>Guru</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
