@@ -744,336 +744,336 @@
     <!-- Faq Section -->
     <section id="faq" class="faq section">
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Frequently Asked Questions</p>
-      </div><!-- End Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Frequently Asked Questions</h2>
+            <p>Frequently Asked Questions</p>
+        </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-12">
-            <div class="custom-accordion" id="accordion-faq">
-              <div class="accordion-item">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+            <div class="col-12">
+                <div class="custom-accordion" id="accordion-faq">
+                <div class="accordion-item">
+                    <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
+                        How to download and register?
+                    </button>
+                    </h2>
+
+                    <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
+                    <div class="accordion-body">
+                        Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated
+                        they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language ocean.
+                    </div>
+                    </div>
+                </div>
+                <!-- .accordion-item -->
+
+                <div class="accordion-item">
+                    <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2" "="">
+                    How to create your paypal account?
+                </button>
+                </h2>
+                <div id=" collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
+                        <div class="accordion-body">
+                        A small river named Duden flows by their place and supplies it
+                        with the necessary regelialia. It is a paradisematic country, in
+                        which roasted parts of sentences fly into your mouth.
+                        </div>
+                </div>
+                </div>
+                <!-- .accordion-item -->
+
+                <div class="accordion-item">
                 <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
-                    How to download and register?
-                  </button>
+                    <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
+                    How to link your paypal and bank account?
+                    </button>
                 </h2>
 
-                <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
-                  <div class="accordion-body">
-                    Far far away, behind the word mountains, far from the countries
-                    Vokalia and Consonantia, there live the blind texts. Separated
-                    they live in Bookmarksgrove right at the coast of the Semantics,
-                    a large language ocean.
-                  </div>
-                </div>
-              </div>
-              <!-- .accordion-item -->
-
-              <div class="accordion-item">
-                <h2 class="mb-0">
-                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2" "="">
-                How to create your paypal account?
-              </button>
-            </h2>
-            <div id=" collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
+                <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
                     <div class="accordion-body">
-                      A small river named Duden flows by their place and supplies it
-                      with the necessary regelialia. It is a paradisematic country, in
-                      which roasted parts of sentences fly into your mouth.
+                    When she reached the first hills of the Italic Mountains, she
+                    had a last view back on the skyline of her hometown
+                    Bookmarksgrove, the headline of Alphabet Village and the subline
+                    of her own road, the Line Lane. Pityful a rethoric question ran
+                    over her cheek, then she continued her way.
                     </div>
-              </div>
-            </div>
-            <!-- .accordion-item -->
-
-            <div class="accordion-item">
-              <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
-                  How to link your paypal and bank account?
-                </button>
-              </h2>
-
-              <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
-                <div class="accordion-body">
-                  When she reached the first hills of the Italic Mountains, she
-                  had a last view back on the skyline of her hometown
-                  Bookmarksgrove, the headline of Alphabet Village and the subline
-                  of her own road, the Line Lane. Pityful a rethoric question ran
-                  over her cheek, then she continued her way.
                 </div>
-              </div>
-            </div>
-            <!-- .accordion-item -->
+                </div>
+                <!-- .accordion-item -->
 
-          </div>
+            </div>
+            </div>
         </div>
-      </div>
-      </div>
+        </div>
     </section><!-- /Faq Section -->
 
     <!-- Team Section -->
     <section id="team" class="team section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="fade-up">
         <h2>Guru</h2>
-      </div><!-- End Section Title -->
+    </div><!-- End Section Title -->
 
-      <div class="container">
+    <div class="container">
 
-        <div class="row gy-4">
+    <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="team-member">
+            <div class="member-img">
+            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
+            <div class="member-info">
+            <h4>Walter White</h4>
+            <span>Chief Executive Officer</span>
             </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
         </div>
+        </div><!-- End Team Member -->
 
-      </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-member">
+            <div class="member-img">
+            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+            </div>
+            <div class="member-info">
+            <h4>Sarah Jhonson</h4>
+            <span>Product Manager</span>
+            </div>
+        </div>
+        </div><!-- End Team Member -->
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-member">
+            <div class="member-img">
+            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+            </div>
+            <div class="member-info">
+            <h4>William Anderson</h4>
+            <span>CTO</span>
+            </div>
+        </div>
+        </div><!-- End Team Member -->
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+        <div class="team-member">
+            <div class="member-img">
+            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+            <div class="social">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+            </div>
+            <div class="member-info">
+            <h4>Amanda Jepson</h4>
+            <span>Accountant</span>
+            </div>
+        </div>
+        </div><!-- End Team Member -->
+
+    </div>
+
+    </div>
 
     </section><!-- /Team Section -->
 
     <!-- Recent Posts Section -->
     <section id="recent-posts" class="recent-posts section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Posts</h2>
-        <p>Recent Blog Posts<br></p>
-      </div><!-- End Section Title -->
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+    <h2>Recent Posts</h2>
+    <p>Recent Blog Posts<br></p>
+    </div><!-- End Section Title -->
 
-      <div class="container">
+    <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <article>
 
-              <div class="post-img">
+            <div class="post-img">
                 <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-              </div>
+            </div>
 
-              <p class="post-category">Politics</p>
+            <p class="post-category">Politics</p>
 
-              <h2 class="title">
+            <h2 class="title">
                 <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-              </h2>
+            </h2>
 
-              <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
                 <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p class="post-date">
+                <p class="post-author">Maria Doe</p>
+                <p class="post-date">
                     <time datetime="2022-01-01">Jan 1, 2022</time>
-                  </p>
+                </p>
                 </div>
-              </div>
+            </div>
 
             </article>
-          </div><!-- End post list item -->
+        </div><!-- End post list item -->
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <article>
 
-              <div class="post-img">
+            <div class="post-img">
                 <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-              </div>
+            </div>
 
-              <p class="post-category">Sports</p>
+            <p class="post-category">Sports</p>
 
-              <h2 class="title">
+            <h2 class="title">
                 <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
+            </h2>
 
-              <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
                 <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
+                <p class="post-author">Allisa Mayer</p>
+                <p class="post-date">
                     <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
+                </p>
                 </div>
-              </div>
+            </div>
 
             </article>
-          </div><!-- End post list item -->
+        </div><!-- End post list item -->
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <article>
 
-              <div class="post-img">
+            <div class="post-img">
                 <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
+            </div>
 
-              <p class="post-category">Entertainment</p>
+            <p class="post-category">Entertainment</p>
 
-              <h2 class="title">
+            <h2 class="title">
                 <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
+            </h2>
 
-              <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center">
                 <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
+                <p class="post-author">Mark Dower</p>
+                <p class="post-date">
                     <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
+                </p>
                 </div>
-              </div>
+            </div>
 
             </article>
-          </div><!-- End post list item -->
+        </div><!-- End post list item -->
 
         </div><!-- End recent posts list -->
 
-      </div>
+    </div>
 
     </section><!-- /Recent Posts Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
-      </div><!-- End Section Title -->
+    <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+        </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
+    <div class="container" data-aos="fade" data-aos-delay="100">
 
-        <div class="row gy-4">
+    <div class="row gy-4">
 
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
+        <div class="col-lg-4">
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+            <h3>Address</h3>
+            <p>A108 Adam Street, New York, NY 535022</p>
             </div>
+        </div>
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+            <h3>Call Us</h3>
+            <p>+1 5589 55488 55</p>
+            </div>
+        </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+            <h3>Email Us</h3>
+            <p>info@example.com</p>
+            </div>
+        </div><!-- End Info Item -->
 
         </div>
 
-      </div>
+    <div class="col-lg-8">
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+
+                <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <button type="submit">Send Message</button>
+                </div>
+
+            </div>
+        </form>
+    </div><!-- End Contact Form -->
+
+    </div>
+
+    </div>
 
     </section><!-- /Contact Section -->
 
