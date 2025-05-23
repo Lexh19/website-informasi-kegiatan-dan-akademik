@@ -7,6 +7,7 @@
     <title>SD PALIYAN IV GUNUNG KIDUL </title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -85,7 +86,7 @@
                 <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">{{ $hero->title }}</h2>
                     <p class="animate__animated animate__fadeInUp">{{ $hero->subtitle }}</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Selengkapnya</a>
                 </div>
             </div>
         @endforeach
@@ -998,6 +999,26 @@
     </div>
 
     </section><!-- /Recent Posts Section -->
+
+    <!-- Chatbot Button -->
+        <div class="chatbot-button" id="chatbotButton">
+            <i class="bi bi-chat-dots"></i>
+        </div>
+
+        <!-- Chatbot Popup -->
+        <div class="chatbot-popup" id="chatbotPopup">
+        <div class="chatbot-header">
+            <h5 >Chatbot SD Paliyan IV</h5>
+            <button class="close-chatbot" id="closeChatbot">&times;</button>
+        </div>
+        <div class="chatbot-body">
+            @include('chat') 
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" placeholder="Ketik pesan Anda..." class="chatbot-input">
+            <button class="chatbot-send"><i class="bi bi-send"></i></button>
+        </div>
+        </div>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
