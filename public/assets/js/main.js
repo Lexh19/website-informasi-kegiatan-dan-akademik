@@ -201,4 +201,77 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  document.addEventListener('DOMContentLoaded', function() {
+    const chatbotButton = document.getElementById('chatbotButton');
+    const chatbotPopup = document.getElementById('chatbotPopup');
+    const closeChatbot = document.getElementById('closeChatbot');
+
+    // Tampilkan popup saat tombol diklik
+    chatbotButton.addEventListener('click', function() {
+      chatbotPopup.style.display = 'flex';
+    });
+
+    // Sembunyikan popup saat tombol close diklik
+    closeChatbot.addEventListener('click', function() {
+      chatbotPopup.style.display = 'none';
+    });
+
+    // Contoh fungsi untuk mengirim pesan
+    const chatbotInput = document.querySelector('.chatbot-input');
+    const chatbotSend = document.querySelector('.chatbot-send');
+    const chatbotBody = document.querySelector('.chatbot-body');
+
+function sendMessage() {
+  const message = chatbotInput.value.trim();
+  if (!message) return;
+
+  addMessage(message, 'user');
+  chatbotInput.value = '';
+
+  fetch('/chatbot/message', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content,
+      'Accept': 'application/json'
+    },
+    body: JSON.stringify({ message })
+  })
+  .then(async response => {
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.response || 'Server error');
+    }
+    addMessage(data.response, 'bot');
+  })
+  .catch(error => {
+    addMessage("Error: " + error.message, 'bot');
+    console.error('Error:', error);
+  });
+}
+
+    function addMessage(text, sender) {
+      const messageDiv = document.createElement('div');
+      messageDiv.classList.add('message');
+      messageDiv.classList.add(sender + '-message');
+      messageDiv.textContent = text;
+      chatbotBody.appendChild(messageDiv);
+      chatbotBody.scrollTop = chatbotBody.scrollHeight;
+    }
+
+    // Kirim pesan saat tombol diklik atau enter ditekan
+    chatbotSend.addEventListener('click', sendMessage);
+    chatbotInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        sendMessage();
+      }
+    });
+
+    // Pesan sambutan awal dari bot
+    setTimeout(() => {
+      addMessage("Halo! Saya chatbot SD Paliyan IV. Ada yang bisa saya bantu?", 'bot');
+    }, 500);
+  });
+
 })();
+
