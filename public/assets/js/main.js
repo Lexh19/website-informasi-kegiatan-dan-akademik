@@ -201,77 +201,127 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-  document.addEventListener('DOMContentLoaded', function() {
+ document.addEventListener('DOMContentLoaded', function() {
     const chatbotButton = document.getElementById('chatbotButton');
     const chatbotPopup = document.getElementById('chatbotPopup');
     const closeChatbot = document.getElementById('closeChatbot');
-
-    // Tampilkan popup saat tombol diklik
-    chatbotButton.addEventListener('click', function() {
-      chatbotPopup.style.display = 'flex';
-    });
-
-    // Sembunyikan popup saat tombol close diklik
-    closeChatbot.addEventListener('click', function() {
-      chatbotPopup.style.display = 'none';
-    });
-
-    // Contoh fungsi untuk mengirim pesan
     const chatbotInput = document.querySelector('.chatbot-input');
     const chatbotSend = document.querySelector('.chatbot-send');
     const chatbotBody = document.querySelector('.chatbot-body');
 
-function sendMessage() {
-  const message = chatbotInput.value.trim();
-  if (!message) return;
+    // Tampilkan popup saat tombol diklik
+    chatbotButton.addEventListener('click', function() {
+        chatbotPopup.style.display = 'flex';
+    });
 
-  addMessage(message, 'user');
-  chatbotInput.value = '';
+    // Sembunyikan popup saat tombol close diklik
+    closeChatbot.addEventListener('click', function() {
+        chatbotPopup.style.display = 'none';
+    });
 
-  fetch('/chatbot/message', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content,
-      'Accept': 'application/json'
-    },
-    body: JSON.stringify({ message })
-  })
-  .then(async response => {
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.response || 'Server error');
+function showTypingIndicator() {
+    const typingDiv = document.createElement('div');
+    typingDiv.classList.add('typing');
+    typingDiv.id = 'typing-indicator';
+
+    for (let i = 0; i < 3; i++) {
+        const dot = document.createElement('div');
+        dot.classList.add('typing-dot');
+        typingDiv.appendChild(dot);
     }
-    addMessage(data.response, 'bot');
-  })
-  .catch(error => {
-    addMessage("Error: " + error.message, 'bot');
-    console.error('Error:', error);
-  });
+
+    chatbotBody.appendChild(typingDiv);
+    chatbotBody.scrollTop = chatbotBody.scrollHeight;
 }
 
-    function addMessage(text, sender) {
-      const messageDiv = document.createElement('div');
-      messageDiv.classList.add('message');
-      messageDiv.classList.add(sender + '-message');
-      messageDiv.textContent = text;
-      chatbotBody.appendChild(messageDiv);
-      chatbotBody.scrollTop = chatbotBody.scrollHeight;
+function hideTypingIndicator() {
+    const typing = document.getElementById('typing-indicator');
+    if (typing) {
+        typing.remove();
     }
+}
+
+// Modifikasi fungsi sendMessage
+function sendMessage() {
+    const message = chatbotInput.value.trim();
+    if (!message) return;
+
+    addMessage(message, 'user');
+    chatbotInput.value = '';
+
+    // Tampilkan typing indicator
+    showTypingIndicator();
+
+    fetch('/chat', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        },
+        body: JSON.stringify({ content: message })
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Sembunyikan typing indicator
+        hideTypingIndicator();
+
+        const lastMessage = data.history[data.history.length - 1];
+        if (lastMessage.role === 'assistant') {
+            addMessage(lastMessage.content, 'bot');
+        }
+    })
+    .catch(error => {
+        hideTypingIndicator();
+        addMessage("Error: " + error.message, 'bot');
+        console.error('Error:', error);
+    });
+}
+
+function addMessage(text, sender) {
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message');
+    messageDiv.classList.add(sender + '-message');
+
+    // Buat elemen konten dengan class khusus
+    const contentDiv = document.createElement('div');
+    contentDiv.classList.add('message-content');
+
+    // Konversi line breaks (\n) menjadi <br> dan format teks lainnya
+    const formattedText = formatBotResponse(text);
+    contentDiv.innerHTML = formattedText;
+
+    messageDiv.appendChild(contentDiv);
+    chatbotBody.appendChild(messageDiv);
+    chatbotBody.scrollTop = chatbotBody.scrollHeight;
+}
+
+// Fungsi untuk memformat respon bot
+function formatBotResponse(text) {
+    // Ganti line breaks dengan <br>
+    let formatted = text.replace(/\n/g, '<br>');
+
+    // Ganti **teks** menjadi <strong>teks</strong> untuk bold
+    formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+    // Ganti *teks* menjadi <em>teks</em> untuk italic
+    formatted = formatted.replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+    return formatted;
+}
 
     // Kirim pesan saat tombol diklik atau enter ditekan
     chatbotSend.addEventListener('click', sendMessage);
     chatbotInput.addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        sendMessage();
-      }
+        if (e.key === 'Enter') {
+            sendMessage();
+        }
     });
 
     // Pesan sambutan awal dari bot
     setTimeout(() => {
-      addMessage("Halo! Saya chatbot SD Paliyan IV. Ada yang bisa saya bantu?", 'bot');
+        addMessage("Halo! Saya chatbot SD Paliyan IV. Ada yang bisa saya bantu?", 'bot');
     }, 500);
-  });
-
+});
 })();
 
