@@ -1000,25 +1000,25 @@
 
     </section><!-- /Recent Posts Section -->
 
-    <!-- Chatbot Button -->
-        <div class="chatbot-button" id="chatbotButton">
-            <i class="bi bi-chat-dots"></i>
-        </div>
+<!-- Chatbot Button -->
+<div class="chatbot-button" id="chatbotButton">
+    <i class="bi bi-chat-dots"></i>
+</div>
 
-        <!-- Chatbot Popup -->
-        <div class="chatbot-popup" id="chatbotPopup">
-        <div class="chatbot-header">
-            <h5 >Chatbot SD Paliyan IV</h5>
-            <button class="close-chatbot" id="closeChatbot">&times;</button>
-        </div>
-        <div class="chatbot-body">
-            @include('chat') 
-        </div>
-        <div class="chatbot-footer">
-            <input type="text" placeholder="Ketik pesan Anda..." class="chatbot-input">
-            <button class="chatbot-send"><i class="bi bi-send"></i></button>
-        </div>
-        </div>
+<!-- Chatbot Popup -->
+<div class="chatbot-popup" id="chatbotPopup">
+    <div class="chatbot-header">
+        <h5>Chatbot SD Paliyan IV</h5>
+        <button class="close-chatbot" id="closeChatbot">&times;</button>
+    </div>
+    <div class="chatbot-body">
+        <!-- Pesan chat akan muncul di sini -->
+    </div>
+    <div class="chatbot-footer">
+        <input type="text" placeholder="Ketik pesan Anda..." class="chatbot-input">
+        <button class="chatbot-send"><i class="bi bi-send"></i></button>
+    </div>
+</div>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
