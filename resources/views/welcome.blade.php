@@ -48,7 +48,7 @@
             <li><a href="#services">Visi Misi</a></li>
             <li><a href="#portfolio">Galeri</a></li>
             <li><a href="#team">Guru</a></li>
-            <li><a href="#recent-posts">Blog</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
                     <li><a href="#">Dropdown 1</a></li>
@@ -747,7 +747,7 @@
     </section><!-- /Team Section -->
 
     <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
+    <section id="blog" class="blog section">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">

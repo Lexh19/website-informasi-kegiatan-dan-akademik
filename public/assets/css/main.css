@@ -1364,83 +1364,6 @@ section,
   padding: 1px 0 3px 0;
 }
 
-/*--------------------------------------------------------------
-# Faq Section
---------------------------------------------------------------*/
-.faq .content-subtitle {
-  font-size: 15px;
-  margin-bottom: 10px;
-  display: block;
-  color: var(--default-color);
-}
-
-.faq .content-title {
-  color: var(--heading-color);
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
-.faq p {
-  line-height: 1.7;
-  color: var(--default-color);
-}
-
-.faq .custom-accordion .accordion-item {
-  background-color: var(--surface-color);
-  margin-bottom: 0px;
-  position: relative;
-  border-radius: 0px;
-  overflow: hidden;
-}
-
-.faq .custom-accordion .accordion-item .btn-link {
-  display: block;
-  width: 100%;
-  padding: 15px 0;
-  text-decoration: none;
-  text-align: left;
-  color: var(--default-color);
-  border: none;
-  padding-left: 40px;
-  border-radius: 0;
-  position: relative;
-  background-color: color-mix(in srgb, var(--default-color), transparent 94%);
-}
-
-.faq .custom-accordion .accordion-item .btn-link:before {
-  content: "\f282";
-  display: inline-block;
-  font-family: "bootstrap-icons" !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  vertical-align: -0.125em;
-  -webkit-font-smoothing: antialiased;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 15px;
-}
-
-.faq .custom-accordion .accordion-item .btn-link[aria-expanded=true] {
-  color: var(--accent-color);
-}
-
-.faq .custom-accordion .accordion-item .btn-link[aria-expanded=true]:before {
-  font-family: "bootstrap-icons" !important;
-  content: "\f286";
-  position: absolute;
-  color: var(--accent-color);
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.faq .custom-accordion .accordion-item .accordion-body {
-  padding: 20px 20px 20px 20px;
-  color: var(--default-color);
-}
 
 /*--------------------------------------------------------------
 # Team Section
@@ -1514,9 +1437,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Recent Posts Section
+# Blog Section
 --------------------------------------------------------------*/
-.recent-posts article {
+.blog article {
   background: var(--surface-color);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1525,46 +1448,46 @@ section,
   overflow: hidden;
 }
 
-.recent-posts .post-img {
+.blog .post-img {
   max-height: 240px;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }
 
-.recent-posts .post-category {
+.blog .post-category {
   font-size: 16px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   margin-bottom: 10px;
 }
 
-.recent-posts .title {
+.blog .title {
   font-size: 20px;
   font-weight: 700;
   padding: 0;
   margin: 0 0 20px 0;
 }
 
-.recent-posts .title a {
+.blog .title a {
   color: var(--heading-color);
   transition: 0.3s;
 }
 
-.recent-posts .title a:hover {
+.blog .title a:hover {
   color: var(--accent-color);
 }
 
-.recent-posts .post-author-img {
+.blog .post-author-img {
   width: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.recent-posts .post-author {
+.blog .post-author {
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.recent-posts .post-date {
+.blog .post-date {
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   margin-bottom: 0;
@@ -2495,32 +2418,32 @@ section,
   font-size: 14px;
 }
 
-.recent-posts-widget .post-item {
+.blog-widget .post-item {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
-.recent-posts-widget .post-item:last-child {
+.blog-widget .post-item:last-child {
   margin-bottom: 0;
 }
 
-.recent-posts-widget .post-item h4 {
+.blog-widget .post-item h4 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-.recent-posts-widget .post-item h4 a {
+.blog-widget .post-item h4 a {
   color: var(--default-color);
   transition: 0.3s;
 }
 
-.recent-posts-widget .post-item h4 a:hover {
+.blog-widget .post-item h4 a:hover {
   color: var(--accent-color);
 }
 
-.recent-posts-widget .post-item time {
+.blog-widget .post-item time {
   display: block;
   font-style: italic;
   font-size: 14px;
