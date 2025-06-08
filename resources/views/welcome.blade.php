@@ -48,7 +48,7 @@
             <li><a href="#services">Visi Misi</a></li>
             <li><a href="#portfolio">Galeri</a></li>
             <li><a href="#team">Guru</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#recent-posts">Blog</a></li>
             <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
                     <li><a href="#">Dropdown 1</a></li>
@@ -525,7 +525,8 @@
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section>
+    <!-- /Portfolio Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
@@ -654,164 +655,6 @@
 
     </section><!-- /Testimonials Section -->
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>What they are saying about us</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-3">
-
-          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="pricing-item">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="pricing-item">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
-      <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Frequently Asked Questions</h2>
-            <p>Frequently Asked Questions</p>
-        </div><!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-            <div class="col-12">
-                <div class="custom-accordion" id="accordion-faq">
-                <div class="accordion-item">
-                    <h2 class="mb-0">
-                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
-                        How to download and register?
-                    </button>
-                    </h2>
-
-                    <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
-                    <div class="accordion-body">
-                        Far far away, behind the word mountains, far from the countries
-                        Vokalia and Consonantia, there live the blind texts. Separated
-                        they live in Bookmarksgrove right at the coast of the Semantics,
-                        a large language ocean.
-                    </div>
-                    </div>
-                </div>
-                <!-- .accordion-item -->
-
-                <div class="accordion-item">
-                    <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2" "="">
-                    How to create your paypal account?
-                </button>
-                </h2>
-                <div id=" collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
-                        <div class="accordion-body">
-                        A small river named Duden flows by their place and supplies it
-                        with the necessary regelialia. It is a paradisematic country, in
-                        which roasted parts of sentences fly into your mouth.
-                        </div>
-                </div>
-                </div>
-                <!-- .accordion-item -->
-
-                <div class="accordion-item">
-                <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
-                    How to link your paypal and bank account?
-                    </button>
-                </h2>
-
-                <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
-                    <div class="accordion-body">
-                    When she reached the first hills of the Italic Mountains, she
-                    had a last view back on the skyline of her hometown
-                    Bookmarksgrove, the headline of Alphabet Village and the subline
-                    of her own road, the Line Lane. Pityful a rethoric question ran
-                    over her cheek, then she continued her way.
-                    </div>
-                </div>
-                </div>
-                <!-- .accordion-item -->
-
-            </div>
-            </div>
-        </div>
-        </div>
-    </section><!-- /Faq Section -->
 
     <!-- Team Section -->
     <section id="team" class="team section">
