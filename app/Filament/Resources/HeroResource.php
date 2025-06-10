@@ -76,7 +76,7 @@ class HeroResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListHeroes::route('/'),
+            'index' => Pages\ListHero::route('/'),
             'create' => Pages\CreateHero::route('/create'),
             'edit' => Pages\EditHero::route('/{record}/edit'),
         ];
